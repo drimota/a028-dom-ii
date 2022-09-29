@@ -5,10 +5,10 @@ function adicionaItem(event) {
     newArticle.appendChild(newItem)
     caixa.insertAdjacentElement('beforeend', newArticle)
 
-
-    newelement.setAttribute('class', 'item')
+    newArticle.setAttribute('class', 'item')
 }
 
 function removeItem(event) {
     event.target.remove()
 }
+
